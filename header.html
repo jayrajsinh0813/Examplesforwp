@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Responsive Navigation Menu</title> -->
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{box-sizing: border-box}
+        .container{width: 300px;
+          overflow: hidden;
+          margin:50px auto 0 auto;
+
+        }
+
+        .container span{
+          width: 100%;
+          display: block;
+          text-align: center;
+          font-family: sans-serif;
+          color: #fff;
+          background:  #4444B3;
+
+        }
+
+        .container .box{
+          float:left;
+          width: 100px;
+          height: 100px;
+          border: 1px solid #000;
+          transition: all .25s ease-in-out;
+          font-family: sans-serif;
+          font-size: 85px;
+          text-align: center;
+          line-height: 100px;
+          cursor: pointer;
+
+        }
+        .container .box:hover{
+          background: rgba(10,10,10,0.5);
+          color: #fff;
+
+        }
+        button{
+          background: #26C281;
+          color: #fff;
+          font-weight: bold;
+          border: 1px solid yellow;
+          cursor: pointer;
+          width: 200px;
+          height: 40px;
+          font-size: 22px;
+          display: block;
+          margin: 10px auto;
+
+        }
+        .win{
+          background: #F9690E;
+          color: #fff;
+
+        }
+
+      </style>
+  </head>
+  <body background="bgi.png">
+    <nav>
+      <div class="logo">
+.</div>
+<input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+
+<li><a href="#">About Me</a></li>
+<li><a href="#">Examples</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
